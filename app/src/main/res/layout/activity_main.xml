@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/araveemoisas"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="aravee mõisas murdsid öösel talli"
+            />
+        <Button
+            android:id="@+id/terveoo"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="terve öö oli tallist hobuste"
+            />
+        <Button
+            android:id="@+id/vaatamaeijulgenud"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="vaatama ei julgenud keegi minna"
+            />
+        <Button
+            android:id="@+id/hommikuksolidhobustest"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="hommikuks olid hobustest ainult"
+            />
+        <Button
+            android:id="@+id/jasabajohvidalles"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="wrap_content"
+            android:onClick="mangi"
+            android:text="ja saba jõhvid alles"
+            android:textSize="14dp" />
+        <Button
+            android:id="@+id/monestpoldsedagi"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="mõnest polnd sedagi"
+            />
+        <Button
+            android:id="@+id/kesneedmurdsid"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="kes need murdsid?"
+            />
+        <Button
+            android:id="@+id/homodjallevoi"
+            android:backgroundTint="#FF7557"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="homod jälle või?"
+            />
+        <Button
+            android:id="@+id/muidugihomod"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="muidugi homod"
+            />
+        <Button
+            android:id="@+id/homodhomod"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="homod homod"
+            />
+        <Button
+            android:id="@+id/parastkaisid"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="pärast käisid nisu sees sital"
+            />
+        <Button
+            android:id="@+id/sellisedarssinakorgused"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="sellised arssina kõrgused"
+            />
+        <Button
+            android:id="@+id/pasatordidjaid"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="pasatordid jäid järgi"
+            />
+        <Button
+            android:id="@+id/roosadjamurgised"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="roosad ja mürgised"
+            />
+
+        <Button
+            android:id="@+id/roosadpasatordidonraudselt"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:onClick="mangi"
+            android:text="roosad pasatordid on raudselt"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/meileijulgenud"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="meil ei julgenud linnud"
+            />
+        <Button
+            android:id="@+id/kudumas"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="kudumas?"
+            />
+        <Button
+            android:id="@+id/kudemas"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="kudemas"
+            />
+        <Button
+            android:id="@+id/vedasetmeise"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="vedas, et me ise sel ajal võõrsil"
+            />
+        <Button
+            android:id="@+id/homodeisaajumoisa"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="homod ei saa ju mõisa"
+            />
+        <Button
+            android:id="@+id/saavad"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="saavad"
+            />
+        <Button
+            android:id="@+id/uksteener"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="üks teener lasi nad sisse"
+            />
+        <Button
+            android:id="@+id/agategelikultseeeiolnudki"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:onClick="mangi"
+            android:text="aga tegelikult see ei olnudki teener"
+            android:textSize="14dp" />
+        <Button
+            android:id="@+id/paristeenrileidsime"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="päris teenri leidsime kolm nädalat"
+            />
+        <Button
+            android:id="@+id/nahkoliseljast"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="nahk oli seljast maha nülitud"
+            />
+        <Button
+        android:id="@+id/ahjuseitohikorraga"
+        android:textSize="14dp"
+        android:onClick="mangi"
+            android:backgroundTint="#FF7557"
+        android:text="ahjus ei tohi korraga kuuske"
+        android:layout_width="350dp"
+        android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/seemeelitabhomodkohale"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="see meelitab homod kohale"
+            />
+        <Button
+            android:id="@+id/tajattissiibri"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="ta jättis siibri lahti"
+            />
+        <Button
+            android:id="@+id/jasiiskuitaoosel"
+            android:layout_width="350dp"
+            android:backgroundTint="#FF7557"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="ja siis kui ta öösel üles ärkas"
+            />
+        <Button
+            android:id="@+id/tubaolitihkelt"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF7557"
+            android:textSize="14dp"
+            android:onClick="mangi"
+            android:text="tuba oli tihkelt homosid"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
